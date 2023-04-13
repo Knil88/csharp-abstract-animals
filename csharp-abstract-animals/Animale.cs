@@ -16,5 +16,7 @@ namespace csharp_abstract_animals
         public abstract void faiVerso();
 
         public abstract void mangia();
+
+      
     }
 }

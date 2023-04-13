@@ -11,6 +11,7 @@ Aquila a3; // early binding
 
 a3 = new Aquila();
 
+
 Delfino a4 ;
 
 a4 = new Delfino();
@@ -26,5 +27,27 @@ foreach(Animale a in elencoAnimali)
     a.dormi();
     a.faiVerso();
     a.mangia();
+
+   
     
+
+
 }
+INuotante b;
+b = new Delfino();
+
+Console.Write($"Sono un delfino e ");
+
+b.Nuota();
+
+IVolante c = new Aquila();
+
+Console.Write($"Sono un Aquila e ");
+
+c.Vola();
+
+IVolante p = new Passerotto();
+
+Console.Write($"Sono un passerotto e ");
+
+p.Vola();
