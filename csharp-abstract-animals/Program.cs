@@ -7,9 +7,9 @@ a1 = new Cane();
 
 a2 = new Passerotto();
 
- Aquila a3; // early binding
+Aquila a3; // early binding
 
-a3 = new Aquila;
+a3 = new Aquila();
 
 Delfino a4 ;
 
